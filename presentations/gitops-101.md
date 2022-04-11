@@ -1,6 +1,17 @@
 <!--
 theme: default
+class:
+ - invert
+headingDivider: 2 
+paginate: true
 -->
+
+<!--
+_class:
+ - lead
+ - invert
+-->
+
 
 # GitOps 101
 

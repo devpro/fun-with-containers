@@ -1,0 +1,25 @@
+image: node:lts
+
+before_script:
+  - npm install -g markdownlint-cli
+  - npm install -g @marp-team/marp-cli
+
+ci:
+  stage: build
+  script:
+    - markdownlint README.md
+    - markdownlint presentations/*.md
+    - marp presentations/*.md
+
+pages:
+  stage: build
+  script:
+    - marp presentations/*.md
+    - mkdir -p public/img
+    - cp presentations/*.html public/
+    - cp presentations/img/*.* public/img/
+  artifacts:
+    paths:
+      - public
+  only:
+    - main

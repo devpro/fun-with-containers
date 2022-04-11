@@ -4,12 +4,12 @@ theme: default
 
 # GitOps 101
 
-Updated April 2022
+Created in April 2022
 
 ## Definition - What?
 
-> GitOps is an operational framework that takes DevOps best practices used for application development such as version control, collaboration, compliance, and CI/CD,
-and applies them to infrastructure automation [GitLab](https://about.gitlab.com/topics/gitops/)
+> GitOps is an operational framework that takes DevOps best practices used for application development such as version control, collaboration,
+compliance, and CI/CD, and applies them to infrastructure automation [GitLab](https://about.gitlab.com/topics/gitops/)
 
 ## Definition - Why?
 
@@ -49,4 +49,5 @@ CNCF (Cloud Native Computing Foundation) tending project
 
 ## Interesting readings
 
-* [Promoting changes and releases with GitOps](https://en.sokube.ch/post/promoting-changes-and-releases-with-gitops) by SoKube - January 18, 2022
+* [Promoting changes and releases with GitOps](https://en.sokube.ch/post/promoting-changes-and-releases-with-gitops)
+by SoKube - January 18, 2022

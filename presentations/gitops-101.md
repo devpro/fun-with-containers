@@ -12,7 +12,6 @@ _class:
  - invert
 -->
 
-
 # GitOps 101
 
 Created in April 2022

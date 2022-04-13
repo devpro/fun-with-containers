@@ -21,6 +21,10 @@ Created in April 2022
 > GitOps is an operational framework that takes DevOps best practices used for application development such as version control, collaboration, compliance, and CI/CD,
 and applies them to infrastructure automation [GitLab](https://about.gitlab.com/topics/gitops/)
 
+## Definition - When?
+
+[![Short GitOps Timeline](./img/Short-GitOps-Timeline-Light.png)](https://www.weave.works/technologies/gitops/)
+
 ## Definition - Why?
 
 * Break the strong coupling between component source code and infrasrtucture lifecycle
@@ -35,7 +39,7 @@ and applies them to infrastructure automation [GitLab](https://about.gitlab.com/
 
 Word | Main impact | Breakdown
 ---- | ----------- | ---------
-CI/CD | Technical | Continuous automation pipelines
+CI/CD | Technical | Continuous automation (pipelines)
 DevOps | People | Collaboration practices
 GitOps | Processes | Operational framework
 
@@ -49,9 +53,10 @@ GitOps | Processes | Operational framework
 
 ## Tips to start
 
-* Start small, no big bang, with baby steps to evaluate, gather experience, and update the approach when needed
-* Run the processes into containers and manage the workload with an orchestrator tool like Kubernetes
-* Use state of the art tools like helm and ArgoCD
+* Get familiar with Helm charts (or Kustomize)
+* Chose a secret management tool
+* Start small on ArgoCD with one component at a time
+* Experiment and define the git strategy for environment management
 
 ## Choices to make
 
@@ -60,7 +65,13 @@ GitOps | Processes | Operational framework
   * one per git branche
   * one per git repository
 
+## Secret management
+
+* No secret values in git!
+* Use Bitnami "Sealed Secrets" or another mechanism
+
 ## Interesting readings
 
 * [Promoting changes and releases with GitOps](https://en.sokube.ch/post/promoting-changes-and-releases-with-gitops)
 by SoKube - January 18, 2022
+* [Free eBook on Leanpub](https://leanpub.com/gitops)

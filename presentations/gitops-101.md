@@ -16,22 +16,22 @@ _class:
 
 Created in April 2022
 
-## Definition - What?
+## GitOps - What?
 
-> GitOps is an operational framework that takes DevOps best practices used for application development such as version control, collaboration, compliance, and CI/CD,
-and applies them to infrastructure automation [GitLab](https://about.gitlab.com/topics/gitops/)
+> GitOps is an operational framework that takes DevOps best practices used for application development such as version control, collaboration, compliance, and CI/CD, and applies them to infrastructure automation [GitLab](https://about.gitlab.com/topics/gitops/)
 
-## Definition - When?
+## GitOps - When?
 
 [![Short GitOps Timeline](./img/Short-GitOps-Timeline-Light.png)](https://www.weave.works/technologies/gitops/)
 
-## Definition - Why?
+## GitOps - Why?
 
-* Break the strong coupling between component source code and infrasrtucture lifecycle
-* Benefit from git versioning features to optimize the infrastructure operation tasks
-* Highly reduce the burden of environment management
+* Separate the code from the infrastructure
+* Enable full automation
+* Ease and version environment configuration
+* Simplify operational work
 
-## Definition - How?
+## GitOps - How?
 
 [![GitOps CD pipeline by WeaveWorks](./img/weaveworks-gitops_cd_pipeline.jpg)](https://www.weave.works/blog/gitops-high-velocity-cicd-for-kubernetes)
 
@@ -39,9 +39,9 @@ and applies them to infrastructure automation [GitLab](https://about.gitlab.com/
 
 Word | Main impact | Breakdown
 ---- | ----------- | ---------
-CI/CD | Technical | Continuous automation (pipelines)
-DevOps | People | Collaboration practices
-GitOps | Processes | Operational framework
+**CI/CD** | Technical | Continuous automation (pipelines)
+**DevOps** | People | Collaboration practices
+**GitOps** | Processes | Operational framework
 
 ## ArgoCD - Discovery
 
@@ -51,11 +51,13 @@ GitOps | Processes | Operational framework
 
 ## Demonstration
 
-## Tips to start
+* [devpro/gitops-samples](https://github.com/devpro/gitops-samples)
+
+## Getting started
 
 * Get familiar with Helm charts (or Kustomize)
 * Chose a secret management tool
-* Start small on ArgoCD with one component at a time
+* Start small with one new component at a time on ArgoCD
 * Experiment and define the git strategy for environment management
 
 ## Choices to make

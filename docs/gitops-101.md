@@ -2,9 +2,18 @@
 paginate: false
 -->
 
+<style>
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+</style>
+
 <!-- _class: lead -->
 
 # Fun with containers - GitOps 101
+
+![h:400 center](./img/argocd.png)
 
 Created in April 2022
 
@@ -29,7 +38,7 @@ Created in April 2022
 
 ## GitOps - When?
 
-[![Short GitOps Timeline](./img/Short-GitOps-Timeline-Light.png)](https://www.weave.works/technologies/gitops/)
+[![center](./img/Short-GitOps-Timeline-Light.png)](https://www.weave.works/technologies/gitops/)
 
 ---
 
@@ -44,7 +53,7 @@ Created in April 2022
 
 ## GitOps - How?
 
-[![GitOps CD pipeline by WeaveWorks](./img/weaveworks-gitops_cd_pipeline.jpg)](https://www.weave.works/blog/gitops-high-velocity-cicd-for-kubernetes)
+[![center](./img/weaveworks-gitops_cd_pipeline.jpg)](https://www.weave.works/blog/gitops-high-velocity-cicd-for-kubernetes)
 
 ---
 
@@ -55,7 +64,7 @@ Word | Main challenge | Breakdown
 **CI/CD** | Technical | Continuous automation (pipelines)
 **DevOps** | People | Collaboration practices
 **GitOps** | Processes | Operational framework
-**IaC** | Technical | Repositorties with infrastructure code
+**IaC** | Technical | Repositories with infrastructure code
 
 ---
 

@@ -1,5 +1,9 @@
 image: node:lts
 
+variables:
+  DOCS_FOLDER: docs
+  MARP_CUSTOM_THEME: css/dracula.css
+
 before_script:
   - npm install -g markdownlint-cli
   - npm install -g @marp-team/marp-cli
@@ -8,16 +12,16 @@ ci:
   stage: build
   script:
     - markdownlint README.md
-    - markdownlint presentations/*.md
-    - marp presentations/*.md
+    - markdownlint $DOCS_FOLDER/*.md
+    - marp $DOCS_FOLDER/*.md --theme $MARP_CUSTOM_THEME
 
 pages:
   stage: build
   script:
-    - marp presentations/*.md
+    - marp $DOCS_FOLDER/*.md --theme $MARP_CUSTOM_THEME
     - mkdir -p public/img
-    - cp presentations/*.html public/
-    - cp presentations/img/*.* public/img/
+    - cp $DOCS_FOLDER/*.html public/
+    - cp $DOCS_FOLDER/img/*.* public/img/
   artifacts:
     paths:
       - public

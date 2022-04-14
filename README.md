@@ -8,8 +8,11 @@ Check [be11s.gitlab.io/fun-with-containers](https://be11s.gitlab.io/fun-with-con
 
 ## Presentations
 
-* [GitOps 101](./presentations/gitops-101.md)
+* [GitOps 101](./docs/gitops-101.md)
 
 ## Technical stack
 
+### Presentation as code
+
 * Presentations are powered by [Marp](https://marp.app/)
+* Custom themes: [dracula](https://github.com/dracula/marp), [matsubara](https://github.com/matsubara0507/marp-themes)

@@ -86,7 +86,9 @@ Word | Main challenge | Breakdown
 
 ## Demonstration
 
-* [devpro/gitops-samples](https://github.com/devpro/gitops-samples)
+![h:400 center](./img/argocd-demo.png)
+
+→ [devpro/gitops-samples](https://github.com/devpro/gitops-samples)
 
 ---
 

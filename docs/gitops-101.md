@@ -147,6 +147,7 @@ Word | Main challenge | Breakdown
 ## Appendix - Helm chart stores
 
 * General
+  * [ArtifactHub](https://artifacthub.io/)
   * [Bitnami](https://bitnami.com/stacks/helm)
 * Dedicated (examples)
   * [Grafana](https://grafana.github.io/helm-charts/)

@@ -9,6 +9,7 @@ Check [be11s.gitlab.io/fun-with-containers](https://be11s.gitlab.io/fun-with-con
 ## Presentations
 
 * [GitOps 101](./docs/gitops-101.md)
+* [Observability 101](./docs/observability-101.md)
 
 ## Technical stack
 

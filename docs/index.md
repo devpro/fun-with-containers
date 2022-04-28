@@ -16,3 +16,4 @@ _class:
 ## Presentations
 
 * [GitOps 101](./gitops-101.html) - April 2022
+* [Observability 101](./observability-101.html) - April 2022

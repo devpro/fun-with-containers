@@ -11,7 +11,7 @@ img[alt~="center"] {
 
 <!-- _class: lead -->
 
-# Fun with containers - GitOps 101
+# GitOps 101
 
 ![h:400 center](./img/argocd.png)
 

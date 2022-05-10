@@ -158,4 +158,6 @@ Aka "The Three Pillars of Observability"
 ## References
 
 * [Observability: A complete overview for 2021](https://lightstep.com/observability-101) by Lightstep
+* [Contrib repository for the OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector-contrib)
 * [Cloud Native samples](https://github.com/devpro/cloud-native-samples) by Bertrand Thomas
+* [Telegraf](https://github.com/influxdata/telegraf)

@@ -63,14 +63,13 @@ Aka "The Three Pillars of Observability"
 
 ## A personal experience
 
-* SSH to Linux servers and tail log files
-* RDP to Windows servers and open log files in a text editor
-* Manually correlate logs of different servers and timezones
-* Write custom libraries to enrich application logs
-* Send logs to Redis data store to have a fast & decoupled solution
-* Parse logs with Logstash (with grok filters), store the data in Elasticsearch and view them in Kibana
-* Write custom HTTP processors to read/write fields to messages exchanged between microservices
-* Migrate to Kubernetes and start collecting metrics with Prometheus
+* SSH to Linux servers and **tail** log files
+* RDP to Windows servers and open log files in a **text editor**
+* Write **custom libraries** to enrich application logs
+* Send logs to **Redis** data store to have a fast & decoupled solution
+* Parse logs with **Logstash** (with grok filters), store the data in **Elasticsearch** and view them in **Kibana**
+* Write **custom HTTP processors** to read/write fields to messages exchanged between microservices
+* Migrate to Kubernetes and start collecting metrics with **Prometheus**
 
 ---
 
@@ -80,7 +79,7 @@ Aka "The Three Pillars of Observability"
 * Span
 * SpanContext
 
-![center](./img/traces-spans.png)
+![h:500 center](https://docs.lightstep.com/images/docs/dt-traceview.png)
 
 ---
 
@@ -88,7 +87,7 @@ Aka "The Three Pillars of Observability"
 
 > Cloud native technologies empower organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds. (ref. [CNCF](https://github.com/cncf/foundation/blob/main/charter.md))
 
-![center](./img/cloud-native-summary.png)
+![h:500 center](./img/cloud-native-summary.png)
 
 ---
 
@@ -96,13 +95,13 @@ Aka "The Three Pillars of Observability"
 
 > The [CNCF](https://www.cncf.io/) serves as the vendor-neutral home for many of the fastest-growing open source projects.
 
-![center](./img/cncf_organization.png)
+![h:500 center](./img/cncf_organization.png)
 
 ---
 
 ## CNCF project velocity in 2022
 
-[![center](./img/CNCF_Annual_Report_2022%20_Project_velocity.png)](https://www.cncf.io/reports/cncf-annual-report-2022/)
+[![h:500 center](./img/CNCF_Annual_Report_2022%20_Project_velocity.png)](https://www.cncf.io/reports/cncf-annual-report-2022/)
 
 ---
 
@@ -141,9 +140,9 @@ Aka "The Three Pillars of Observability"
 
 ## Kubernetes deployment (DaemonSet)
 
-![center](https://trstringer.com/images/otel-collector2.png)
-
 → [Helm chart](https://github.com/open-telemetry/opentelemetry-helm-charts/tree/main/charts/opentelemetry-collector)
+
+![h:500 center](https://trstringer.com/images/otel-collector2.png)
 
 ---
 

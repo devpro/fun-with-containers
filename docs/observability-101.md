@@ -55,39 +55,58 @@ Created in April 2022
 
 * Logs
 * Metrics
-* Traces (distributed tracing)
+* Traces (& distributed tracing)
 
 Aka "The Three Pillars of Observability"
 
 ---
 
-## Our personal experience
+## A personal experience
 
-* Connect to a server to open log files
-* Use Elastic Stack to retrieve information from logs and monitor an application in Kibana
-* Discover Prometheus with Kubernetes
+* SSH to Linux servers and tail log files
+* RDP to Windows servers and open log files in a text editor
+* Manually correlate logs of different servers and timezones
+* Write custom libraries to enrich application logs
+* Send logs to Redis data store to have a fast & decoupled solution
+* Parse logs with Logstash (with grok filters), store the data in Elasticsearch and view them in Kibana
+* Write custom HTTP processors to read/write fields to messages exchanged between microservices
+* Migrate to Kubernetes and start collecting metrics with Prometheus
 
 ---
 
-### Distributed tracing
+### Distributed tracing (Tracing Signal)
 
 * Trace
 * Span
-* Tags (or SpanContext)
+* SpanContext
 
 ![center](./img/traces-spans.png)
 
 ---
 
-## CNCF
+## Cloud Native
 
-> The [CNCF](https://www.cncf.io/) (Cloud Native Computing Foundation) serves as the vendor-neutral home for many of the fastest-growing open source projects.
+> Cloud native technologies empower organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds. (ref. [CNCF](https://github.com/cncf/foundation/blob/main/charter.md))
 
-![CNCF projects 2021 activity diagram](./img/CNCF%20projects%202021%20activity.png)
+![center](./img/cloud-native-summary.png)
 
 ---
 
-## OpenTelemetry
+## CNCF (Cloud Native Computing Foundation)
+
+> The [CNCF](https://www.cncf.io/) serves as the vendor-neutral home for many of the fastest-growing open source projects.
+
+![center](./img/cncf_organization.png)
+
+---
+
+## CNCF project velocity in 2022
+
+[![center](./img/CNCF_Annual_Report_2022%20_Project_velocity.png)](https://www.cncf.io/reports/cncf-annual-report-2022/)
+
+---
+
+## OpenTelemetry (OTel)
 
 > High-quality, ubiquitous, and portable telemetry to enable effective observability
 >  
@@ -99,13 +118,12 @@ Aka "The Three Pillars of Observability"
 
 ## Reasons to choose OpenTelemetry
 
-* Open source
+* Open source & vendor neutral
 * CNCF active & trending project (merge of OpenCensus and OpenTracing)
-* Vendor neutral
-* Decoupled solution
+* Reliable & decoupled solution
 * State of the Art design and implemenation
-* Adopted and supported by observability leaders
-* Easy to extend
+* Finally a standard, adopted and supported by observability leaders
+* Easy to integrate & extend
 
 ---
 
@@ -115,25 +133,25 @@ Aka "The Three Pillars of Observability"
 
 ---
 
-## Data Collection in OpenTelemetry
-
-* Components
-  * Receivers
-  * Processors
-  * Exporters
-
----
-
 ## OpenTelemetry Collector
 
 [![h:500 center](https://opentelemetry.io/docs/collector/img/otel-collector.svg)](https://opentelemetry.io/docs/collector/)
 
 ---
 
-## OpenTelemetry Specification
+## Kubernetes deployment (DaemonSet)
 
-* [docs](https://opentelemetry.io/docs/reference/specification/)
-* [code](https://github.com/open-telemetry/opentelemetry-specification)
+![center](https://trstringer.com/images/otel-collector2.png)
+
+→ [Helm chart](https://github.com/open-telemetry/opentelemetry-helm-charts/tree/main/charts/opentelemetry-collector)
+
+---
+
+## Other OpenTelemetry components
+
+* [Instrumentation](https://opentelemetry.io/docs/instrumentation/)
+* [OpenTelemetry Protocol (OTLP)](https://opentelemetry.io/docs/specs/otlp/)
+* [Specification](https://opentelemetry.io/docs/reference/specification/) ([code](https://github.com/open-telemetry/opentelemetry-specification))
 
 ---
 

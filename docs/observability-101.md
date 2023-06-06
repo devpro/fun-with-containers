@@ -75,7 +75,7 @@ Aka "The Three Pillars of Observability"
 
 ### Distributed tracing
 
-![h:500 center](https://docs.lightstep.com/images/docs/dt-traceview.png)
+![h:350 center](https://docs.lightstep.com/images/docs/dt-traceview.png)
 
 ---
 

@@ -93,7 +93,7 @@ Aka "The Three Pillars of Observability"
 >  
 > OpenTelemetry is a **collection of tools, APIs, and SDKs**. Use it to instrument, generate, collect, and export telemetry data (metrics, logs, and traces) to help you analyze your software’s performance and behavior.
 
-→ [opentelemetry.io](https://opentelemetry.io/)
+→ [opentelemetry.io](https://opentelemetry.io/), [GitHub](https://github.com/open-telemetry)
 
 ---
 
@@ -111,7 +111,7 @@ Aka "The Three Pillars of Observability"
 
 ## Architecture of OpenTelemetry
 
-![h:500 center](https://raw.github.com/open-telemetry/opentelemetry.io/main/iconography/Reference_Architecture.svg)
+![h:500 center](https://opentelemetry.io/img/otel_diagram.png)
 
 ---
 
@@ -126,14 +126,14 @@ Aka "The Three Pillars of Observability"
 
 ## OpenTelemetry Collector
 
-[![h:500 center](https://raw.github.com/open-telemetry/opentelemetry.io/main/iconography/Otel_Collector.svg)](https://opentelemetry.io/docs/collector/)
+[![h:500 center](https://opentelemetry.io/docs/collector/img/otel-collector.svg)](https://opentelemetry.io/docs/collector/)
 
 ---
 
 ## OpenTelemetry Specification
 
 * [docs](https://opentelemetry.io/docs/reference/specification/)
-* [repository](https://github.com/open-telemetry/opentelemetry-specification)
+* [code](https://github.com/open-telemetry/opentelemetry-specification)
 
 ---
 

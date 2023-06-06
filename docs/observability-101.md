@@ -79,14 +79,6 @@ Aka "The Three Pillars of Observability"
 
 ---
 
-### Tracing Signal
-
-* Trace
-* Span
-* SpanContext
-
----
-
 ## Cloud Native
 
 > Cloud native technologies empower organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds. (ref. [CNCF](https://github.com/cncf/foundation/blob/main/charter.md))
@@ -147,6 +139,14 @@ Aka "The Three Pillars of Observability"
 → [Helm chart](https://github.com/open-telemetry/opentelemetry-helm-charts/tree/main/charts/opentelemetry-collector)
 
 ![h:400 center](https://trstringer.com/images/otel-collector2.png)
+
+---
+
+### Tracing Signal
+
+* Trace
+* Span
+* SpanContext
 
 ---
 

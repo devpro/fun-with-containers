@@ -15,7 +15,7 @@ img[alt~="center"] {
 
 [![h:400 center](./img/instana-observability-landscape.jpg)](https://www.instana.com/blog/observability-vs-monitoring/)
 
-Created in April 2022
+Updated in June 2023
 
 ---
 
@@ -69,17 +69,21 @@ Aka "The Three Pillars of Observability"
 * Send logs to **Redis** data store to have a fast & decoupled solution
 * Parse logs with **Logstash** (with grok filters), store the data in **Elasticsearch** and view them in **Kibana**
 * Write **custom HTTP processors** to read/write fields to messages exchanged between microservices
-* Migrate to Kubernetes and start collecting metrics with **Prometheus**
+* Migrate to Kubernetes and collect metrics with **Prometheus**
 
 ---
 
-### Distributed tracing (Tracing Signal)
+### Distributed tracing
+
+![h:500 center](https://docs.lightstep.com/images/docs/dt-traceview.png)
+
+---
+
+### Tracing Signal
 
 * Trace
 * Span
 * SpanContext
-
-![h:500 center](https://docs.lightstep.com/images/docs/dt-traceview.png)
 
 ---
 
@@ -87,7 +91,7 @@ Aka "The Three Pillars of Observability"
 
 > Cloud native technologies empower organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds. (ref. [CNCF](https://github.com/cncf/foundation/blob/main/charter.md))
 
-![h:500 center](./img/cloud-native-summary.png)
+![h:350 center](./img/cloud-native-summary.png)
 
 ---
 
@@ -95,7 +99,7 @@ Aka "The Three Pillars of Observability"
 
 > The [CNCF](https://www.cncf.io/) serves as the vendor-neutral home for many of the fastest-growing open source projects.
 
-![h:500 center](./img/cncf_organization.png)
+![h:400 center](./img/cncf_organization.png)
 
 ---
 
@@ -121,7 +125,7 @@ Aka "The Three Pillars of Observability"
 * CNCF active & trending project (merge of OpenCensus and OpenTracing)
 * Reliable & decoupled solution
 * State of the Art design and implemenation
-* Finally a standard, adopted and supported by observability leaders
+* A standard adopted and supported by observability leaders
 * Easy to integrate & extend
 
 ---
@@ -142,7 +146,7 @@ Aka "The Three Pillars of Observability"
 
 → [Helm chart](https://github.com/open-telemetry/opentelemetry-helm-charts/tree/main/charts/opentelemetry-collector)
 
-![h:500 center](https://trstringer.com/images/otel-collector2.png)
+![h:400 center](https://trstringer.com/images/otel-collector2.png)
 
 ---
 

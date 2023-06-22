@@ -15,7 +15,7 @@ img[alt~="center"] {
 
 ![h:400 center](./img/argocd.png)
 
-Created in April 2022
+Updated in June 2023
 
 ---
 

@@ -59,12 +59,12 @@ Created in April 2022
 
 ## Buzzword fight
 
-Word | Main challenge | Breakdown
----- | ---------------| ---------
-**CI/CD** | Technical | Continuous automation (pipelines)
-**DevOps** | People | Collaboration practices
-**GitOps** | Processes | Operational framework
-**IaC** | Technical | Repositories with infrastructure code
+Word       | Main challenge  | Breakdown
+---------- | --------------- | -------------------------------------
+**CI/CD**  | Technical       | Continuous automation (pipelines)
+**DevOps** | People          | Collaboration practices
+**GitOps** | Processes       | Operational framework
+**IaC**    | Technical       | Repositories with infrastructure code
 
 ---
 
@@ -94,9 +94,10 @@ Word | Main challenge | Breakdown
 
 ## Choices of implementation (1/4)
 
-* Kubernetes manifest configuration
+* Kubernetes definition format
   * [Helm](https://helm.sh/)
   * [Kustomize](https://kustomize.io/)
+  * Raw manifests
 
 ---
 
@@ -122,7 +123,8 @@ Word | Main challenge | Breakdown
 ## Choices of implementation (4/4)
 
 * GitOps continuous delivery tool for Kubernetes
-  * [ArgoCD](https://argoproj.github.io/cd/)
+  * [Argo CD](https://argoproj.github.io/cd/)
+  * [Fleet](https://fleet.rancher.io/)
   * [Flux](https://fluxcd.io/)
 
 ---
@@ -149,6 +151,7 @@ Word | Main challenge | Breakdown
 * General
   * [ArtifactHub](https://artifacthub.io/)
   * [Bitnami](https://bitnami.com/stacks/helm)
+  * [Devpro](https://github.com/devpro/helm-charts)
 * Dedicated (examples)
   * [Grafana](https://grafana.github.io/helm-charts/)
   * [OpenTelemetry](https://github.com/open-telemetry/opentelemetry-helm-charts)

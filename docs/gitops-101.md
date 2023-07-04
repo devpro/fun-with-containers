@@ -13,9 +13,9 @@ img[alt~="center"] {
 
 # GitOps 101
 
-![h:400 center](./img/argocd.png)
+![h:400 center](./img/kubernetes-gitops-ship.jpg)
 
-Updated in June 2023
+Updated in July 2023
 
 ---
 
